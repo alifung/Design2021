@@ -1114,9 +1114,7 @@ h1 {
   right: 3%;
   bottom: 5%;
   z-index: 100;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+
   display: none;
   width: 100px;
   clear: none;
