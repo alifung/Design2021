@@ -9,15 +9,16 @@
 
   </head>
   <body>
-    <iframe id="contentFrame" frameBorder="0" allowfullscreen></iframe>
+     <iframe id="contentFrame" frameBorder="0" allowfullscreen></iframe>
     <div id="dialogWrap">
         <div id="dialogWrapCell">
             <div id="mainDialog">
-                <div id="dialogText">This page is password protected.</div>
+                <a class="backHome" href="#" onclick="goBack()"> < Back</a> 
+                <div id="dialogText">Please enter the password to view this project</div>
                 <div id="passArea">
                     <p id="passwordPrompt">Password</p>
                     <input id="pass" type="password" name="pass" autofocus>
-                    <div>
+                    
                         <span id="messageWrapper">
                             <span id="invalidPass" class="notifyText">Sorry, please try again.</span>
                             <span id="success" class="notifyText">Success!</span>
@@ -25,14 +26,18 @@
                         </span>
                         <button id="submitPass" type="button">Submit</button>
                         <div style="clear: both;"></div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
     </div>
-    <div id="attribution">
-        Protected by <a href="https://www.maxlaumeister.com/pagecrypt/">PageCrypt</a>
-    </div>
+   
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
     <script>
 /*
 CryptoJS v3.1.2
