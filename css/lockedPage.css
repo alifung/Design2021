@@ -1,146 +1,151 @@
 
     
     html, body {
-        margin: 0;
-        width: 100%;
-        height: 100%;
+      margin: 0;
+      width: 100%;
+      height: 100%;
 
-    }
-    #dialogText {
-        
-        color: #00000;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 35.35px;
-        font-family: Raleway, sans-serif;
-        /*width:90%;*/
-        margin-bottom: 50px;
-        margin-top:30px;
-    }
-    
-    #dialogWrap {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: table;
-        background-color: #86A294;
-    }
-    
-    #dialogWrapCell {
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-    }
-    
-    #mainDialog {
-        max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: none;
-        overflow: hidden;
-        text-align: left;
-    }
+  }
+  #dialogText {
+      
+      color:white;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 35.35px;
+      font-family: Raleway, sans-serif;
+      /*width:90%;*/
+      margin-bottom: 50px;
+      margin-top:30px;
+  }
+  
+  #dialogWrap {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: table;
+      background: linear-gradient(180deg, #379472 0%, #35644D 181.48%) fixed;
+  }
+  
+  #dialogWrapCell {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+  }
+  
+  #mainDialog {
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 10%;
+      padding-right: 10%;
+      background-color: none;
+      overflow: hidden;
+      text-align: left;
+  }
 
-    .backHome{
-        color: black
-        font-size:18px;
-        line-height: 21px;
-        font-weight: 700;
-        text-decoration: none;
-        font-family: Lato, sans-serif;
-        
-    }
-    .backHome:hover{
-                text-decoration: underline;
-    }
-    .backHome:visited{
-        color:black;
+  #mainDialog a{
+      color: white;
+      font-size:18px;
+      line-height: 21px;
+      font-weight: 400;
+      text-decoration: none;
+      font-family: Lato, sans-serif;
+      
+  }
+  #mainDialog a:hover{
+              text-decoration: underline;
+  }
+  #mainDialog a:visited{
+      color:white;
 }
 
-    
-    #passwordPrompt{
-    color: #002D16;
-    size: 14px;
-    line-height: 20px;
-    margin-bottom:5px;
-    font-weight: 700;
-    font-family: Lato, sans-serif;
-    }
+  
+  #passwordPrompt{
+  color: white;
+  size: 14px;
+  line-height: 20px;
+  margin-bottom:5px;
+  font-weight: 700;
+  font-family: Lato, sans-serif;
+  }
 
-    #passArea > * {
+  #passArea > * {
 
-        /*margin: 5px auto;*/
-    }
-    #pass {
-        width: 99%;
-        height: 40px;
-        font-size: 30px;
-        border-radius: 0 12px 0 12px;
-        border:solid #86A294 0;
-    }
-    
-    #messageWrapper {
-        float: left;
-        vertical-align: middle;
-        line-height: 30px;
-    }
-    
-    .notifyText {
-        display: none;
-    }
-    
-    #invalidPass {
-        color: black;
-        font-family: Lato, sans-serif;
-    }
-    
-    #success {
-        color: black;
-        font-family: Lato, sans-serif;
-    }
-    
-    #submitPass {
-        position: relative;
-        z-index: 2;
-        font-size: 14px;
-        color: white;
-        height: 42px;
-        width: 130px;
-        border-radius: 0 12px ;
-        border:solid #86A294 0;
-        background-color: #315c46;
-        box-shadow: none;
-        float: right;
-        border-color: none;
-        margin-top: -42px;
-        font-family: Lato, sans-serif;
+      /*margin: 5px auto;*/
+  }
+  #pass {
+      width: 99%;
+      height: 40px;
+      font-size: 30px;
+      border-radius: 0 12px 0 12px;
+      border:solid #86A294 0;
+  }
+  
+  #messageWrapper {
+      float: left;
+      vertical-align: middle;
+      line-height: 30px;
+  }
+  
+  .notifyText {
+      display: none;
+  }
+  
+  #invalidPass {
+      color: white;
+      font-family: Lato, sans-serif;
+  }
+  
+  #success {
+      color: black;
+      font-family: Lato, sans-serif;
+  }
+  
+  #submitPass {
+      position: relative;
+      z-index: 2;
+      font-size: 14px;
+      color:#14623B;
+      height: 42px;
+      width: 130px;
+      border-radius: 0 12px 0 0;
+      border-left:solid black 1px;
+      background-color: white;
+      box-shadow: none;
+      float: right;
+      border-color: none;
+      margin-top: -42px;
+      font-family: Lato, sans-serif;
 
-
-    }
-    #submitPass:hover{
-         text-decoration: underline;
-    }
-    #contentFrame {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    #attribution {
-        display: none;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        text-align: center;
-        padding: 10px;
-        font-weight: bold;
-        font-size: 0.8em;
-    }
-    #attribution, #attribution a {
-        color: #00000;
-        
-    }
+  }
+  button{
+      border: none;
+      background-color:none ;
+  }
+  #submitPass:hover{
+       text-decoration: underline;
+  }
+  #contentFrame {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  #attribution {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 0.8em;
+  }
+  #attribution, #attribution a {
+      color: #00000;
+      
+  }
