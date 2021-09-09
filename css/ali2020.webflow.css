@@ -31,6 +31,7 @@
 }
 
 .prototypes{
+  max-width:500px;
   margin-top: 50px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -44,9 +45,20 @@
 
 .proto .mobile{
   width: 40%;
+  height: auto:
 }
 
 .proto .desktop{
+  width: 60%;
+    height: auto:
+
+}
+
+.proto.mobile{
+  width: 40%;
+}
+
+.proto.desktop{
   width: 60%;
 
 }
