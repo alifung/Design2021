@@ -1476,7 +1476,7 @@ border-top: 1px solid white;
     width: 30%;
     height: 100%;
     object-fit: cover; /*magic*/
-
+  }
   .section1 {
     display: inline-block;
     max-width: none;
