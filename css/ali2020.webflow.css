@@ -52,14 +52,12 @@
 }
 #whiteWisp{
   margin-bottom: -1px;
-  margin-right: -3px;
+  margin-right: 0px;
   width: 110%;
 
 }
 #homefooter{
-  
   padding-top:60px !important;
-  
   background-color: white;
   color: black;
   z-index: 2;
@@ -69,7 +67,23 @@
 
 #homefooter h3{
   color:#515754;
+  
 }
+
+#homefooter ul{
+  padding-left: 15px;
+}
+
+#homefooter li{
+color:#515754;  
+  font-family: Lato, sans-serif;
+font-size: 18px;
+line-height: 28px;
+font-weight: 300;
+}
+
+
+
   #homefooter p, #homefooter a #homefooter .paragraph-3{
   color: black;
 }
@@ -100,6 +114,23 @@
 #inversefooter .div-block-5{
   border-top: 1px solid white;
 }
+
+
+#inversefooter ul{
+  padding-left: 15px;
+}
+
+#inversefooter li{
+color:white;  
+  font-family: Lato, sans-serif;
+font-size: 18px;
+line-height: 28px;
+font-weight: 300;
+}
+
+
+
+
 
 h1 {
   display: block;
@@ -200,6 +231,9 @@ h1 {
   font-family: Raleway, sans-serif;
   text-decoration: none;
 }
+
+
+
 
 .project h3{
 margin: 0px;
