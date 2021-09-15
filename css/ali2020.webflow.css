@@ -389,6 +389,7 @@ border-top: 1px solid white;
 .heading-3 {
   font-size: 64px;
   line-height: 75px;
+  width: 28%;
 }
 
 .utility-page-wrap {
@@ -1425,7 +1426,7 @@ border-top: 1px solid white;
   font-family: Lato, sans-serif;
   color: #315c46;
   font-size: 24px;
-  line-height: 62px;
+  line-height: 1.2;
 }
 
 .paragraph-19 {
