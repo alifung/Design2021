@@ -239,10 +239,10 @@ h1 {
 
 
 .project h3{
-height:0px;
+height:auto;
 margin: 0px;
 padding: 0px;
-padding-bottom: 60px;
+padding-bottom: 30px;
 font-size: 32px;
 line-height: 37.57px;
 font-weight: 700;
@@ -1779,7 +1779,7 @@ border-top: 1px solid white;
   
   .project {
     width: 100%; 
-    min-height: 400px;
+    min-height: 500px;
     margin-bottom: 30px;
     margin-top: 30px;
     
