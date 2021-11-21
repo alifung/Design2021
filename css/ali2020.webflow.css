@@ -220,9 +220,10 @@ h1 {
 .project {
   color:white;
   position: relative;
-  width: 28%;
+  width: auto;
   margin-right: 50px;
-  max-width: 300px;
+  margin-bottom: 60px;
+  max-width: 331px;
   min-height: 480px;  
   padding-left:30px;
   padding-top:21px;
@@ -230,16 +231,18 @@ h1 {
   background-color: none;
   font-family: Raleway, sans-serif;
   text-decoration: none;
+  
+  
 }
 
 
 
 
 .project h3{
-height:118px;
+height:0px;
 margin: 0px;
 padding: 0px;
-padding-bottom: 44px;
+padding-bottom: 60px;
 font-size: 32px;
 line-height: 37.57px;
 font-weight: 700;
@@ -1167,6 +1170,7 @@ border-top: 1px solid white;
   bottom: auto;
   z-index: -1;
   display: none;
+
 }
 
 .link-9 {
@@ -1179,12 +1183,14 @@ border-top: 1px solid white;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-
   margin-top: 50px;
   -webkit-box-pack: justify;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: justify;
   justify-content: flex-start;
+      flex-wrap: wrap;
+    flex-direction: row;
+  
 }
 
 
